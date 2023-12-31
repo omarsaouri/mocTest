@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/main.css">
+        <script defer src="./js/main.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Users Database</h1>
+        </header>
+        <main>
+            <section class="input-container">
+                <h2>New User: </h2>
+                <div class="inputs">
+                    <input placeholder="CNE" id="cneInput">
+                    <input placeholder="Username" id="usernameInput">
+                    <select id="subsSelect">
+                        <option value="free">Free</option>
+                        <option value="premium">premium</option>
+                        <option value="pro">pro</option>
+                    </select>
+                    <span id="checkSpan"></span>
+                </div>
+                <div class="controls">
+                    <button class="cancel-btn" id="cancelBtn">Cancel</button>
+                    <button class="add-btn" id="addBtn">Add</button>
+                </div>
+            </section>
+            <section class="users-container">
+                <h2>Users</h2>
+                <div class="users" id="usersContainer">
+
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
